@@ -57,7 +57,8 @@ def predict():
     vec    = vectorizer.transform([clean])
     label  = int(model.predict(vec)[0])
     proba  = model.predict_proba(vec)[0]
-    conf   = float(max(proba)) * 100
+    conf = float(max(proba)) * 100
+    
 
     result = "REAL" if label == 1 else "FAKE"
     status = "uncertain" if conf < 70 else ("real" if label == 1 else "fake")
