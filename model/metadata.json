@@ -1,0 +1,50 @@
+{
+  "best_model": "Decision Tree",
+  "accuracy": 99.65,
+  "f1": 99.68,
+  "cv_f1_mean": 99.59,
+  "cv_f1_std": 0.01,
+  "precision": 99.65,
+  "recall": 99.65,
+  "dataset_size": 38646,
+  "fake_count": 17455,
+  "real_count": 21191,
+  "all_results": {
+    "Logistic Regression": {
+      "accuracy": 99.4,
+      "precision": 99.41,
+      "recall": 99.4,
+      "f1": 99.46,
+      "cv_f1_mean": 99.46,
+      "cv_f1_std": 0.06,
+      "train_time": 4.8
+    },
+    "Decision Tree": {
+      "accuracy": 99.65,
+      "precision": 99.65,
+      "recall": 99.65,
+      "f1": 99.68,
+      "cv_f1_mean": 99.59,
+      "cv_f1_std": 0.01,
+      "train_time": 37.8
+    },
+    "Random Forest": {
+      "accuracy": 99.08,
+      "precision": 99.08,
+      "recall": 99.08,
+      "f1": 99.17,
+      "cv_f1_mean": 99.15,
+      "cv_f1_std": 0.1,
+      "train_time": 106.5
+    },
+    "Naive Bayes": {
+      "accuracy": 96.62,
+      "precision": 96.62,
+      "recall": 96.62,
+      "f1": 96.92,
+      "cv_f1_mean": 96.91,
+      "cv_f1_std": 0.3,
+      "train_time": 0.6
+    }
+  }
+}

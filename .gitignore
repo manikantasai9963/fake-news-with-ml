@@ -1,0 +1,23 @@
+# Large data files
+Fake.csv
+True.csv
+
+# Trained model artefacts
+model/*.pkl
+model/*.pkl.gz
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.env
+venv/
+.venv/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
